@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Authentication Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+  <form id="authForm" class="form">
+    <h2 id="formTitle">Signup</h2>
+
+    <div id="usernameField">
+      <input type="text" id="username" placeholder="Username">
+    </div>
+
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+
+    <div id="error" class="error"></div>
+
+    <button type="submit" id="submitBtn">Sign Up</button>
+
+    <p id="toggleText">
+      Already have an account? <a href="login.html"><span id="toggleLink">Login</span></a>
+    </p>
+
+  </form>
+</div>
+</body>
+</html>
